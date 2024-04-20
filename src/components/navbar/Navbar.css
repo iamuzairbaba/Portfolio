@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+.navbar {
+  padding: 0px 50px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  font-family: "Source Sans 3", sans-serif;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.header:hover {
+  color: #7843e9;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.menu-items{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.menu-items li{
+    font-family: "Source Sans 3", sans-serif;
+    padding: 22px 30px;
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.menu-items li a {
+  text-decoration: none; 
+  color: inherit;
+}
