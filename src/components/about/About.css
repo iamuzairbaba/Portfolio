@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+.about-section {
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #fafafa;
+  font-size: 10.4px;
+  line-height: 15.6px;
+  padding: 124.8px 0px;
+}
+
+.main-container {
+  font-size: 10.4px;
+  line-height: 15.6px;
+  margin: 0px 327.5px;
+}
+
+.primary-heading {
+  color: #111;
+  font-size: 41.6px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 62.4px;
+  margin: 0px 0px 36.4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.secondary-heading {
+  color: #555;
+  font-size: 20.8px;
+  font-weight: 500;
+  line-height: 33.28px;
+  margin: 0px 208px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about-description {
+  display: grid;
+  font-size: 10.4px;
+  gap: 104px;
+  grid-template-columns: 572px 572px;
+  grid-template-rows: 543.328px;
+  line-height: 15.6px;
+}
+
+.know-me-heading {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 43px;
+  margin: 0px 0px 31px;
+}
+
+.underline{
+    content: '';
+    position: absolute;
+    /* top: calc(100% + 200px); */
+    bottom: -200px;
+    height: 6px;
+    width: 25px;
+    background: #7843E9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.know-me-para {
+  color: #666;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18.72px;
+  line-height: 31.824px;
+  margin: 0px 0px 10.4px;
+}
+
+.know-me-para-end {
+  margin-bottom: 41px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background-color: #9993;
+  border-radius: 5px;
+  color: #666;
+  font-size: 16.64px;
+  font-weight: 600;
+  line-height: 24.96px;
+  margin: 0px 15.6px 15.6px 0px;
+  padding: 10.4px 20.8px;
+}
+
+.contact-btn {
+  background-color: #7843e9;
+  border: none;
+  border-radius: 5px;
+  box-shadow: #00000026 0px 5px 15px 0px;
+  color: #fff;
+  display: inline-block;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16.64px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 24.96px;
+  padding: 15.6px 52px;
+  text-decoration: none;
+}

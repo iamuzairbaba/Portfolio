@@ -8,6 +8,7 @@ import twitterImg from "../../assets/twitter-dark.svg";
 function Hero() {
   return (
     <div
+      id="home"
       className="hero-section"
       style={{
         backgroundImage: `linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(${backgroundImage})`,
