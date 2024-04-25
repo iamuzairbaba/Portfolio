@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-.about-section {
+.projects-section {
   font-family: "Source Sans 3", sans-serif;
-  background-color: #fafafa;
+  background-color: #ffffff;
   font-size: 10.4px;
   line-height: 15.6px;
   padding: 124.8px 0px;
 }
 
 .main-container {
-  font-size: 10.4px;
-  line-height: 15.6px;
   margin: 0px 327.5px;
 }
 
@@ -35,25 +33,8 @@
   margin-bottom: 100px;
 }
 
-.about-description {
-  display: grid;
-  font-size: 10.4px;
-  gap: 104px;
-  grid-template-columns: 572px 572px;
-  grid-template-rows: 543.328px;
-  line-height: 15.6px;
-}
-
-.know-me-heading {
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 29px;
-  font-weight: 700;
-  line-height: 43px;
-  margin: 0px 0px 31px;
-}
-
-.underline {
-  content: "";
+.underlineproject {
+  content: " ";
   position: absolute;
   /* top: calc(100% + 200px); */
   bottom: -200px;
@@ -65,56 +46,60 @@
   border-radius: 5px;
 }
 
-.know-me-para {
-  color: #666;
+.project {
+  display: grid;
+  font-size: 10.4px;
+  gap: 52px;
+  grid-template-columns: 717.594px 478.391px;
+  grid-template-rows: 424.484px;
+  line-height: 15.6px;
+  margin: 0px 0px 114.4px;
+}
+
+.project-description {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-size: 10.4px;
+  justify-content: center;
+  line-height: 15.6px;
+  padding: 20.8px 0px;
+}
+
+.project-heading {
   font-family: "Source Sans 3", sans-serif;
+  font-size: 29.12px;
+  font-weight: 700;
+  line-height: 43.68px;
+  margin: 0px 0px 20.8px;
+}
+
+.project-about {
+  color: #666;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 18.72px;
   line-height: 31.824px;
-  margin: 0px 0px 10.4px;
+  margin: 0px 0px 31.2px;
 }
 
-.know-me-para-end {
-  margin-bottom: 41px;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skill {
-  background-color: #9993;
-  border-radius: 5px;
-  color: #666;
-  font-size: 16.64px;
-  font-weight: 600;
-  line-height: 24.96px;
-  margin: 0px 15.6px 15.6px 0px;
-  padding: 10.4px 20.8px;
-}
-
-.contact-btn {
+.project-link-button {
   background-color: #7843e9;
-  border: none;
+  text-decoration: none;
   border-radius: 5px;
   box-shadow: #00000026 0px 5px 15px 0px;
   color: #fff;
-  display: inline-block;
   font-family: "Source Sans 3", sans-serif;
   font-size: 16.64px;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 24.96px;
   padding: 15.6px 52px;
-  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
 }
 
-.links {
-  color: #7843e9;
-  display: inline;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 18.72px;
-  font-weight: 700;
-  line-height: 31.824px;
-  margin: 0px 3px;
+.project-image{
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }

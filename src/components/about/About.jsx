@@ -14,6 +14,7 @@ const mySkills = [
   "GIT",
   "BootStrap",
   "MaterialUI",
+  "Redux",
 ];
 
 function About() {
@@ -33,22 +34,21 @@ function About() {
           <div className="know-me">
             <h3 className="know-me-heading">Get to know me!</h3>
             <p className="know-me-para">
-              I'm a Frontend Focused Web Developer building and managing the
+              I'm a <strong>Frontend Focused Web Developer</strong> building and managing the
               Front-end of Websites and Web Applications that leads to the
-              success of the overall product. Check out some of my work in the
-              Projects section.
+              success of the overall product. Check out some of my work in the <strong>Projects</strong> section.
             </p>
             <p className="know-me-para">
               I also like sharing content related to the stuff that I have
-              learned over the years in Web Development so it can help other
+              learned over the years in <strong>Web Development</strong> so it can help other
               people of the Dev Community. Feel free to Connect or Follow me on
-              my Linkedin and Instagram where I post useful content related to
+              my <a href="link_to_linkedin_profile" className="links">Linkedin</a> and <a href="link_to_github_profile" className="links">GitHub</a> where I post useful content related to
               Web Development and Programming
             </p>
             <p className="know-me-para know-me-para-end">
-              I'm open to Job opportunities where I can contribute, learn and
+              I'm open to <strong>Job</strong> opportunities where I can contribute, learn and
               grow. If you have a good opportunity that matches my skills and
-              experience then don't hesitate to contact me.
+              experience then don't hesitate to <strong>contact</strong> me.
             </p>
             <a className="contact-btn" href='#contact'>CONTACT</a>
           </div>
