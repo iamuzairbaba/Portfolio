@@ -17,6 +17,18 @@ import web4 from "../../public/web4.png";
 import web5 from "../../public/web5.png";
 import ogo from "../../public/ogo.png";
 import { useState } from "react";
+import {
+  FaHtml5,
+  FaPython,
+  FaGitAlt,
+  FaFigma,
+  FaBootstrap,
+  FaCss3Alt,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { VscVscode } from "react-icons/vsc";
+import { SiMongodb } from "react-icons/si";
+import { RiReactjsFill, RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -235,43 +247,77 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className=" flex flex-col items-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-700 dark:text-white flex-1">
-              <Image src={design} width={100} height={100} />
-              <h3 className="text-xl font-medium pt-8 pb-3  ">
-                Programming Languages
-              </h3>
-              <p className="text-gray-800 py-1 dark:text-white">JavaScript</p>
-              <p className="text-gray-800 py-1 dark:text-white">HTML & CSS</p>
-              <p className="text-gray-800 py-1 dark:text-white">C</p>
-              <p className="text-gray-800 py-1 dark:text-white">Python</p>
+              <Image src={code} width={100} height={100} />
+              <h3 className="text-xl font-medium pt-8 pb-3  ">Languages</h3>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <IoLogoJavascript className="mr-2" />
+                JavaScript
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <FaHtml5 className="mr-2" />
+                HTML
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <FaCss3Alt className="mr-2" />
+                CSS
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <FaPython className="mr-2" />
+                Python
+              </p>
             </div>
             <div className=" flex flex-col items-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-700 dark:text-white flex-1">
-              <Image src={code} width={100} height={100} />
-              <h3 className="text-xl font-medium pt-8 pb-3 ">
-                FrameWorks and Libraries
-              </h3>
-              <p className="text-gray-800 py-1 dark:text-white">ReactJS</p>
-              <p className="text-gray-800 py-1 dark:text-white">Bootstrap</p>
-              <p className="text-gray-800 py-1 dark:text-white">NextJS</p>
-              <p className="text-gray-800 py-1 dark:text-white">Tailwind CSS</p>
+              <Image src={design} width={100} height={100} />
+              <h3 className="text-xl font-medium pt-8 pb-3 ">Libraries</h3>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <RiReactjsFill className="mr-2" />
+                ReactJS
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <FaBootstrap className="mr-2" />
+                Bootstrap
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <RiNextjsFill className="mr-2" />
+                NextJS
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <RiTailwindCssFill className="mr-2" />
+                Tailwind CSS
+              </p>
             </div>
             <div className="shadow-lg p-10 rounded-xl my-10  dark:bg-gray-700 dark:text-white flex-1 flex flex-col items-center">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-xl font-medium pt-8 pb-3 ">Tools & Softwares</h3>
-              <p className="text-gray-800 py-1 dark:text-white">Git</p>
-              <p className="text-gray-800 py-1 dark:text-white">GitHub</p>
-              <p className="text-gray-800 py-1 dark:text-white">Figma</p>
-              <p className="text-gray-800 py-1 dark:text-white">VS Code</p>
-              <p className="text-gray-800 py-1 dark:text-white">MongoDB Compass</p>
+              <h3 className="text-xl font-medium pt-8 pb-3 ">Tools</h3>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <FaGitAlt className="mr-2" />
+                Git
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <AiFillGithub className="mr-2" />
+                GitHub
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <FaFigma className="mr-2" />
+                Figma
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <VscVscode className="mr-2" />
+                VS Code
+              </p>
+              <p className="text-gray-800 py-1 flex items-center dark:text-white">
+                <SiMongodb className="mr-2" />
+                MongoDB Compass
+              </p>
             </div>
           </div>
         </section>
         <section>
-        <footer className="bg-white dark:bg-gray-800 py-8 text-center">
-      <p className="text-black dark:text-white text-sm">
-        &copy; 2024 Uzair Bashir. All rights reserved.
-      </p>
-    </footer>
-
+          <footer className="bg-white dark:bg-gray-800 py-8 text-center">
+            <p className="text-black dark:text-white text-sm">
+              &copy; 2024 Uzair Bashir. All rights reserved.
+            </p>
+          </footer>
         </section>
       </main>
     </div>
