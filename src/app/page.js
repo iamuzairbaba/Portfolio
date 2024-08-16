@@ -155,7 +155,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="dark:bg-gray-700 basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl flex flex-col justify-center items-center">
+            {/* <div className="dark:bg-gray-700 basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl flex flex-col justify-center items-center">
               <Image src={web2} className="w-[700px] lg:h-[400px]" />
               <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">
                 Deen School Website
@@ -180,7 +180,7 @@ export default function Home() {
                   Code
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="dark:bg-gray-700 basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl flex flex-col justify-center items-center">
               <Image src={web3} className="w-[700px] lg:h-[400px]" />
               <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">
