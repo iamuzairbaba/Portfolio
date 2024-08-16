@@ -69,14 +69,12 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 md:gap-24">
             <AiFillTwitterCircle className="hover:text-gray-400" href="" />
-            <AiFillLinkedin
-              className="hover:text-gray-400"
-              href="https://www.linkedin.com/in/uzxyrr/"
-            />
-            <AiFillGithub
-              className="hover:text-gray-400"
-              href="https://github.com/iamuzairbaba"
-            />
+            <a href="https://www.linkedin.com/in/uzxyrr/" target="_blank">
+              <AiFillLinkedin className="hover:text-gray-400" />
+            </a>
+            <a href="https://github.com/iamuzairbaba" target="_blank">
+              <AiFillGithub className="hover:text-gray-400" />
+            </a>
           </div>
           <div className="relative mt-14 mx-auto h-80 w-80 md:h-96 md:w-96 mb-6">
             <Image src={ogo} layout="fill" objectFit="cover" />
