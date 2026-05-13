@@ -65,6 +65,16 @@ const projectCards = [
     cta: "Ask about the ERP build",
   },
   {
+    title: "Expenserr",
+    category: "Finance SaaS platform",
+    image: web5,
+    accent: "from-[#14b8a6] via-[#22c55e] to-[#facc15]",
+    summary: "An expense tracker for managing expenses and income with paid plans, Razorpay integration, a Canva-style report builder, and receipt scanning.",
+    bullets: ["Expense and income management with plan-based access", "Razorpay-powered subscriptions and payments", "Custom visual report builder plus receipt scanner workflows"],
+    href: "https://expenserr.vercel.app",
+    cta: "Open live project",
+  },
+  {
     title: "GYM BOI",
     category: "Featured shipped project",
     image: web1,
