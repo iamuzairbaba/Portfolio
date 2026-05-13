@@ -11,6 +11,7 @@ import web3 from "../../public/web3.png";
 import web4 from "../../public/web4.png";
 import web5 from "../../public/web5.png";
 import web6 from "../../public/web6.png";
+import expenserr from "../../public/expenserr.png";
 
 const socialLinks = [
   { label: "GitHub", href: "https://github.com/iamuzairbaba", icon: AiFillGithub },
@@ -58,6 +59,7 @@ const projectCards = [
     title: "ERP System",
     category: "Current flagship build",
     image: web6,
+    imageClassName: "h-[260px] w-full object-cover object-top",
     accent: "from-[#ff7b54] via-[#ffb36b] to-[#ffe082]",
     summary: "A scalable multi-tenant ERP platform built with React.js, Zustand, Node.js, Fastify, and MongoDB with tenant-level isolation.",
     bullets: ["JWT authentication and RBAC with server-side permission enforcement", "Configuration-driven dashboards, theming, and feature-based rendering", "Migration work toward a stronger Next.js frontend and ASP.NET backend"],
@@ -67,7 +69,8 @@ const projectCards = [
   {
     title: "Expenserr",
     category: "Finance SaaS platform",
-    image: web5,
+    image: expenserr,
+    imageClassName: "h-[330px] w-full object-cover object-left-top",
     accent: "from-[#14b8a6] via-[#22c55e] to-[#facc15]",
     summary: "An expense tracker for managing expenses and income with paid plans, Razorpay integration, a Canva-style report builder, and receipt scanning.",
     bullets: ["Expense and income management with plan-based access", "Razorpay-powered subscriptions and payments", "Custom visual report builder plus receipt scanner workflows"],
@@ -318,7 +321,7 @@ export default function Home() {
                   <Image
                     src={projectCards[activeProjectIndex].image}
                     alt={projectCards[activeProjectIndex].title}
-                    className="h-auto w-full object-cover"
+                    className={projectCards[activeProjectIndex].imageClassName ?? "h-auto w-full object-cover"}
                   />
                 </div>
                 <div className="relative mt-5">
